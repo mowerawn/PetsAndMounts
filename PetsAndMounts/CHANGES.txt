@@ -1,0 +1,33 @@
+tag 24d5d78060ed10519cdf2d3aec2a3c2795bc257a v1.8.11
+Author:	Shenton <shenton@hotmail.fr>
+Date:	Wed Aug 29 04:14:15 2018 +0200
+
+Tagging as v1.8.11
+
+commit 987d1fefba02600888a565f46d9df26e3a979c38
+Author: Shenton <shenton@hotmail.fr>
+Date:   Wed Aug 29 04:13:43 2018 +0200
+
+    Bumping version to 1.8.11
+
+commit 9d336aa13f13f5124d1a9b322bfafeaa6a1ea4b4
+Author: Shenton <shenton@hotmail.fr>
+Date:   Wed Aug 29 04:11:31 2018 +0200
+
+    Fixed the mapID generator
+    DevTools
+
+commit 1443d9bc99d10181924acba14bee9aa9462854fe
+Author: Shenton <shenton@hotmail.fr>
+Date:   Wed Aug 22 09:24:46 2018 +0200
+
+    Fixed mapIDs for unique area mounts
+    Fixed spells not working (added sub text to spell if present)
+    Added Orgrimmar Interceptor and Stormwind Skychaser to passengers mounts
+
+commit 0fec1595db7d1b060e6456e94c8a6bdd9b94ac01
+Author: Shenton <shenton@hotmail.fr>
+Date:   Sun Jul 29 00:57:49 2018 +0200
+
+    Fixed The Oculus drakes summon (mapID changed, this is seriously annoying blizzard)
+

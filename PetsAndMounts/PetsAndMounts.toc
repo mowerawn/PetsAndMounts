@@ -1,0 +1,55 @@
+## Interface: 80000
+## Title: Pets & Mounts
+## Notes: Auto and random summon highly customizable for your pets and mounts, with Data Broker support.
+## Notes-frFR: Invocation automatique et aléatoire pour vos compagnons et montures, extrêmement personnalisable. Avec support Data Broker.
+## Author: Shenton
+## SavedVariables: petsAndMountsDB, petsAndMountsPetsDB, petsAndMountsMountsDB
+## Version: 1.8.11
+## LoadOnDemand: 1
+## LoadWith: Blizzard_Collections
+## OptionalDeps: Ace3, Masque, LibDBIcon-1.0
+
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceTimer-3.0\AceTimer-3.0.xml
+Libs\AceHook-3.0\AceHook-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceComm-3.0\AceComm-3.0.xml
+#@end-no-lib-strip@
+
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+#@no-lib-strip@
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+#@end-no-lib-strip@
+
+Frames.xml
+
+Localization\Locales-enUS.lua
+Localization\Locales-deDE.lua
+Localization\Locales-esES.lua
+Localization\Locales-esMX.lua
+Localization\Locales-frFR.lua
+Localization\Locales-itIT.lua
+Localization\Locales-koKR.lua
+Localization\Locales-ptBR.lua
+Localization\Locales-ruRU.lua
+Localization\Locales-zhCN.lua
+Localization\Locales-zhTW.lua
+
+Addon.lua
+
+Variables.lua
+Core.lua
+Buttons.lua
+Messages.lua
+Summon.lua
+
+#@debug@
+# DevTools.lua
+#@end-debug@
