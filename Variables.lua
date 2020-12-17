@@ -20,9 +20,9 @@ A.onFirstLoadActions = 1;
 -- AddOn version
 A.version = GetAddOnMetadata("PetsAndMounts", "Version");
 A.versionStage = "Release";
---@alpha@
+--[===[@alpha@
 A.versionStage = "Alpha";
---@end-alpha@
+--@end-alpha@]===]
 
 -- Addon URL
 A.addonURL = "http://www.curse.com/addons/wow/pets-and-mounts";
@@ -106,6 +106,7 @@ A.passengerMounts =
     75973, -- X-53 Touring Rocket
     245725, -- Orgrimmar Interceptor
     245723, -- Stormwind Skychaser
+    264058, -- Mighty Caravan Brutosaur
 };
 
 -- Mounts with another bit field than the aquatic ones
@@ -123,6 +124,7 @@ A.repairMounts =
     122708, -- Grand Expedition Yak
     61425, -- Traveler's Tundra Mammoth (Alliance)
     61447, -- Traveler's Tundra Mammoth (Horde)
+    264058, -- Mighty Caravan Brutosaur
 };
 
 -- Mounts listed here can only be summoned in a specific area
